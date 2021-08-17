@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&family=Zen+Tokyo+Zoo&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #BFDBFE;
+    --secondary-color: #EFF6FF;
+    --primary: 'Zen Tokyo Zoo', cursive;
+    --secondary: 'Yomogi', cursive;
+}
+
+body {
+    /* margin: 0rem; */
+    background-color: var(--secondary-color);
+    font-family: var(--secondary);
+}
+
+nav {
+    font-family: var(--primary);
+    text-align: center;
+}
+
+nav div {
+    margin: 0;
+    background-color: var(--primary-color);
+    border-radius: 3rem;
+    border-start-start-radius: 1rem;
+    border-end-end-radius: 1rem;
+    letter-spacing: 0.2rem;
+    font-size: 4.5rem;
+    font-weight: bolder;
+    padding: 0.5rem;
+    color: #1E3A8A;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    font-family: inherit;
+    margin-top: 1rem;
+    font-size: larger;
+}
+
+button {
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    border-start-start-radius: 1rem;
+    border-end-end-radius: 1rem;
+    border: none;
+    padding: 1rem 1rem;
+    margin: 1rem 0rem;
+    font-size: larger;
+    font-family: var(--primary);
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+    color: #1E3A8A;
+}
+
+#output {
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--primary-color);
+    padding: 2rem;
+    font-size: large;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    font-family: var(--primary);
+    background-color: var(--primary-color);
+    border-radius: 3rem;
+    color: #1E3A8A;
+    padding: 0.3rem;
+    border-start-start-radius: 1rem;
+    border-end-end-radius: 1rem;
+}
+
+footer div {
+    font-weight: bolder;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+}
+
+footer p {
+    /* max-width: 600px;
+    margin: auto; */
+    font-family: var(--secondary);
+    font-weight: bolder;
+}
